@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|collapseActionView"
+        android:title="@string/action_search"/>
+    <item
+        android:id="@+id/menu_quickenquiry"
+        android:title="@string/menu_quickenquiry"/>
+    <item
+        android:id="@+id/menu_manualenquiry"
+        android:title="@string/menu_quickenquiry"/>
+
+</menu>

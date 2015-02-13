@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res/money.gis.welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <money.gis.customview.UnScrollViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </money.gis.customview.UnScrollViewPager>
+
+    <LinearLayout
+        android:id="@+id/tab_footer"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/tb_bg"
+        android:orientation="horizontal" >
+
+        <money.gis.customview.ColorIconTextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon="@drawable/ic_menu_myplaces"
+            app:text="@string/menu_quickenquiry"
+            app:textSize="12sp"
+            app:color="#ff45c01a" >
+        </money.gis.customview.ColorIconTextView>
+
+        <money.gis.customview.ColorIconTextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            app:icon="@drawable/ic_menu_emoticons"
+            app:text="@string/menu_manualenquiry"
+            app:textSize="12sp"
+            app:color="#ff45c01a" >
+        </money.gis.customview.ColorIconTextView>
+
+<!--         <money.gis.customview.ColorIconTextView -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_height="fill_parent" -->
+<!--             android:layout_weight="1" -->
+<!--             android:padding="5dp" -->
+<!--             app:icon="@drawable/ic_launcher" -->
+<!--             app:text="@string/app_name" -->
+<!--             app:textSize="12sp" -->
+<!--             app:color="#ff45c01a" > -->
+<!--         </money.gis.customview.ColorIconTextView> -->
+
+<!--         <money.gis.customview.ColorIconTextView -->
+<!--             android:layout_width="0dp" -->
+<!--             android:layout_height="fill_parent" -->
+<!--             android:layout_weight="1" -->
+<!--             android:padding="5dp" -->
+<!--             app:icon="@drawable/ic_launcher" -->
+<!--             app:text="@string/app_name" -->
+<!--             app:textSize="12sp" -->
+<!--             app:color="#ff45c01a" > -->
+<!--         </money.gis.customview.ColorIconTextView> -->
+    </LinearLayout>
+
+</LinearLayout>

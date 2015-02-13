@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- begin coloricontextview -->
+    <attr name="icon" format="reference"></attr>
+    <attr name="color" format="color"></attr>
+    <attr name="text" format="string"></attr>
+    <attr name="textSize" format="dimension"></attr>
+
+    <declare-styleable name="ColorIconTextView">
+        <attr name="icon"></attr>
+        <attr name="color"></attr>
+        <attr name="text"></attr>
+        <attr name="textSize"></attr>
+    </declare-styleable>
+    <!-- end coloricontextview -->
+
+
+    <!-- begin pushpulldeletelistview -->
+    <attr name="isHeader" format="boolean"></attr>
+    <attr name="isFooter" format="boolean"></attr>
+    <attr name="isDelete" format="boolean"></attr>
+
+    <declare-styleable name="PushPullDeleteListView">
+        <attr name="isHeader"></attr>
+        <attr name="isFooter"></attr>
+        <attr name="isDelete"></attr>
+    </declare-styleable>
+    <!-- end pushpulldeletelistview -->
+
+</resources>

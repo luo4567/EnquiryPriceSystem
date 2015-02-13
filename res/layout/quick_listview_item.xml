@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+<!--     <LinearLayout -->
+<!--         android:layout_width="40dp" -->
+<!--         android:layout_height="120dp" -->
+<!--         android:background="#333" -->
+<!--         android:gravity="center" -->
+<!--         android:tag="Bottom2" > -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/star" -->
+<!--             android:layout_width="70dp" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:background="#4cd964" -->
+<!--             android:paddingLeft="25dp" -->
+<!--             android:paddingRight="25dp" -->
+<!--             android:src="@drawable/star" /> -->
+
+<!--         <ImageView -->
+<!--             android:id="@+id/trash" -->
+<!--             android:layout_width="70dp" -->
+<!--             android:layout_height="match_parent" -->
+<!--             android:background="#FF3B30" -->
+<!--             android:paddingLeft="25dp" -->
+<!--             android:paddingRight="25dp" -->
+<!--             android:src="@drawable/trash" /> -->
+<!--     </LinearLayout> -->
+
+    <!-- ListView最左边的缩略图 -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:contentDescription="@string/listview_image" />
+    </LinearLayout>
+
+    <!-- 价格 -->
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#040404"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <!-- 地址 -->
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/thumbnail"
+        android:layout_below="@id/price"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:textColor="#343434"
+        android:textSize="12sp" />
+
+    <!-- 时间 -->
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/price"
+        android:layout_marginRight="5dip"
+        android:gravity="right"
+        android:textColor="#10bcc9"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

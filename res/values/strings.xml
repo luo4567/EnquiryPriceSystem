@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">询价平台</string>
+    <string name="db_name">enquiry.sqlite</string>
+    <string name="action_search">查询</string>
+    <string name="menu_quickenquiry">快速询价</string>
+    <string name="menu_manualenquiry">人工询价</string>
+    <string name="listview_image">没有照片</string>
+    
+    
+    <string name="pull_to_refresh_pull_label">下拉刷新…</string>
+    <string name="pull_to_refresh_release_label">放开以刷新…</string>
+    <string name="pull_to_refresh_refreshing_label">正在载入…</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh…</string>
+    <string name="load_more_post">正在加载更多…</string>
+
+</resources>
